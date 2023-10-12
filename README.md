@@ -27,7 +27,7 @@ When you have a set of files that you want to rename sequentially, such as renam
   For example, if you want your files located at 'c:\image' to be named as "image_001," "image_002," etc., you would run:
 
    ```bash
-   python batch-rename-leading-0.py "c:\image" image
+   python batch-rename-leading-0.py "c:\myimage" image
 
 5. The script will process the files in the specified directory and rename them according to the pattern, adding leading zeros as needed.
 
