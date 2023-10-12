@@ -4,7 +4,7 @@ This Python script allows you to batch rename files in a specified directory, ad
 
 ## Description
 
-When you have a set of files that you want to rename sequentially, such as renaming images or documents, this script can help you accomplish that task efficiently. The script takes a user-defined pattern and renames the files in the specified directory with names like "filename_001", "filenamex_002", "filename_003", and so on, ensuring that the counterpart has leading zeros to maintain a consistent file name format.
+When you have a set of files that you want to rename sequentially, such as renaming images or documents, this script can help you accomplish that task efficiently. The script takes a user-defined pattern and renames the files in the specified directory with names like "filename_001", "filename_002", "filename_003", and so on, ensuring that the counterpart has leading zeros to maintain a consistent file name format.
 
 ## How to Use
 
