@@ -20,7 +20,7 @@ When you have a set of files that you want to rename sequentially, such as renam
 
 5. Execute the script with the following command, replacing [directory_path] with the directory containing your files and [pattern] with your desired pattern for the new filenames.
 
-   `python rename_files.py [directory_path] [pattern]`
+   `python batch-rename-leading-0.py [directory_path] [pattern]`
 
   For example, if you want your files located at 'c:\image' to be named as "image_001," "image_002," etc., you would run:
 
