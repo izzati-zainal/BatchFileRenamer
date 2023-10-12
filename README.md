@@ -29,6 +29,7 @@ When you have a set of files that you want to rename sequentially, such as renam
    ```bash
    python batch-rename-leading-0.py "c:\myimage" image
 
+
 5. The script will process the files in the specified directory and rename them according to the pattern, adding leading zeros as needed.
 
 6. After the script completes, you'll receive a message confirming that all files have been successfully renamed.
