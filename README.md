@@ -12,20 +12,25 @@ When you have a set of files that you want to rename sequentially, such as renam
 
 2. **Install Python**: Ensure you have Python installed on your system.
 
-3. **Navigate to Script Directory**: Open a command prompt or terminal and navigate to the directory where the script is located. For example, if your batch file is located at "c:\temp\myfile", and "myfile" is the name of the folder that contains the batch files, you should navigate to the directory "c:\temp". Make sure the Python script (`batch-rename-leading-0.py`) is in that same directory.
+3. **Navigate to Script Directory**: Open a command prompt or terminal and navigate to the directory where the Python script ('batch-rename-leading-0.py') is located. For example, if the script is located at 'c:\temp'
 
    **Example:**
 
    ```bash
    cd c:\temp
 
-4. Execute the script with the following command, replacing [pattern] with your desired pattern for the new filenames. For example, if you want your files to be named as "image_001," "image_002," etc., you would run:
+4. Execute the script with the following command, replacing [directory_path] with the directory containing your files and [pattern] with your desired pattern for the new filenames.
 
    ```bash
-   python batch-rename-leading-0.py "image_"
+   python rename_files.py [directory_path] [pattern]
 
-6. The script will process the files in the specified directory and rename them according to the pattern, adding leading zeros as needed.
+  For example, if you want your files located at 'c:\image' to be named as "image_001," "image_002," etc., you would run:
 
-7. After the script completes, you'll receive a message confirming that all files have been successfully renamed.
+   ```bash
+   python batch-rename-leading-0.py "c:\image" image
+
+5. The script will process the files in the specified directory and rename them according to the pattern, adding leading zeros as needed.
+
+6. After the script completes, you'll receive a message confirming that all files have been successfully renamed.
 
 
